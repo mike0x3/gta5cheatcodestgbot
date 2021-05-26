@@ -1,1 +1,1 @@
-//admin telegram id
+//bot admin telegram id

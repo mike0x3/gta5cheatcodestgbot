@@ -2,17 +2,17 @@ import telebot
 from telebot import types
 from flask import Flask, request
 
-secret = 'topopazzosgravato42069'
-url = 'https://ucagnuleu.pythonanywhere.com/' + secret
-bot = telebot.TeleBot('1327035157:AAEF1Ya63Pcyt1rJUVX7WvgwyfE624CVT40', threaded=False)
+secret = 'secret code'
+url = 'your url' + secret
+bot = telebot.TeleBot('your code', threaded=False)
 
-joinedFile = open ("/home/ucagnuleu/mysite/joined.txt", "r")
+joinedFile = open ("/joined.txt", "r")
 joinedUsers = set()
 for line in joinedFile:
     joinedUsers.add(line.strip())
 joinedFile.close()
 
-joinedFileAdmin = open ("/home/ucagnuleu/mysite/admin.txt", "r")
+joinedFileAdmin = open ("/admin.txt", "r")
 joinedUsersAdmin = set()
 for line in joinedFileAdmin:
     joinedUsersAdmin.add(line.strip())
